@@ -11,7 +11,7 @@ keras_bert=0.89.0
 
 keras_pos_embed 0.13.0
 ## Train model
-We provide scripts to train our model, with all variants presented in the paper. You can change the model type, dataset, and representation methods accordingly. 
+We provide scripts to train our model, with all variants presented in the paper. You can change the model type, dataset, and representation methods in run.py accordingly. 
 Before running the code, please download our dataset and [BERT checkpoint files](https://github.com/google-research/bert), then set the file paths correctly.
 ```shell
 python run.py
